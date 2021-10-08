@@ -7,8 +7,6 @@ export const Home = () => {
         .fill('')
         .map((_, i) => i)
 
-    console.log(cards)
-
     return (
         <Fragment>
             <Search />

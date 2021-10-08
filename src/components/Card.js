@@ -6,7 +6,7 @@ export const Card = () => (
         <img src={''} alt={''} className='card-img-top'/>
         <div className='card-body'>
             <h5 className='card-title'>Title</h5>
-            <Link to={'/profile/' + 'Name'} className='button button-primary'>Open</Link>
+            <Link to={'/profile/'} className='button button-primary'>Open</Link>
         </div>
     </div>
 )
