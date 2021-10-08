@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 import { AlertContext } from './alertContext'
 import { alertReducer } from './alertReducer'
-import { ALERT_HIDE, ALERT_SHOW } from './types'
+import { ALERT_HIDE, ALERT_SHOW } from '../types'
 
 export const AlertState = ({children}) => {
     const [state, dispatch] = useReducer(alertReducer, null)

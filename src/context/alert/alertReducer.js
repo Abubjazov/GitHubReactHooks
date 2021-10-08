@@ -1,4 +1,4 @@
-import { ALERT_HIDE, ALERT_SHOW } from "./types"
+import { ALERT_HIDE, ALERT_SHOW } from "../types"
 
 const handlers = {
     [ALERT_SHOW]: (state, action) => action.payload, 
